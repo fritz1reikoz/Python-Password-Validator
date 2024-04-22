@@ -4,9 +4,9 @@ Welcome to the process of creating a password validator script in python.
 This Python script would check password strength based on criteria like length, character types (uppercase, lowercase, numbers, symbols).
 It could offer suggestions for stronger passwords.
 
-
+'''
 import matplotlib.pyplot as plt
-
+'''
 def calculate_password_strength(password):
   """
   This function calculates the strength of a password based on various criteria.
