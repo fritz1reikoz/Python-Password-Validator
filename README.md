@@ -5,4 +5,4 @@ This Python script would check password strength based on criteria like length, 
 It could offer suggestions for stronger passwords.
 
 
-https://github.com/fritz1reikoz/Python-Password-Validator/blob/main/PPV.ipynb
+!(https://github.com/fritz1reikoz/Python-Password-Validator/blob/main/PPV.ipynb)
