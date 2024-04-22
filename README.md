@@ -20,10 +20,14 @@ If you're running the above codes on any other platform besides "Google Colab" a
 
 And you should be through.
 
+![cmd matplotlib](https://github.com/fritz1reikoz/Python-Password-Validator/assets/55414490/3db6ad64-5802-4384-8bce-948aa11099a0)
+
+![StrongP](https://github.com/fritz1reikoz/Python-Password-Validator/assets/55414490/c3637317-537c-4d91-9f0d-64014f1cca53)
+
 
 <h2>Explanation:</h2>
 
-1. is_valid_password function:
+<b>1. is_valid_password function:</b>
 
   -Takes a password string as input.
   -Defines minimum length requirement (min_length).
@@ -34,7 +38,7 @@ And you should be through.
   -Returns True if all criteria are met, False otherwise.
 
 
-2. main function:
+<b>2. main function:</b>
 
   -Prompts the user to enter a password using input.
   -Calls is_valid_password to check the password.
@@ -42,19 +46,19 @@ And you should be through.
     *If valid, congratulates the user.
     *If invalid, provides specific suggestions for improvement based on missing criteria.
 
-3. if __name__ == "__main__": block:
+<b>3. if __name__ == "__main__": block:</b>
 
   -Ensures the main function runs only when the script is executed directly (not imported as a module).
 
 
-4. calculate_password_strength function:
+<b>4. calculate_password_strength function:</b>
 
   -Similar to the previous version, it calculates a score based on password criteria.
   -Introduces a bonus point for passwords with no repeated characters (len(set(password))).
   -Determines the strength level ("Weak", "Medium", "Strong") based on the score.
 
 
-5. visualize_password_meter function:
+<b>5. visualize_password_meter function:</b>
 
   -Uses matplotlib to create a bar chart for visual feedback.
   -Defines colors based on strength level (red for weak, orange for medium, green for strong).
@@ -63,7 +67,7 @@ And you should be through.
   -Displays the meter using plt.show().
 
 
-6. main function:
+<b>6. main function:</b>
 
   -Prompts the user for a password.
   -Calls calculate_password_strength to get the level and score.
